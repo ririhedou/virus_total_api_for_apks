@@ -73,7 +73,7 @@ class vtapi():
         return (json_data)
 
 
-    #Function to get results of a scanned file/url
+    #Function to get results of a scanned file
     def send_results(self, files):
         
         url = self.baseurl + "file/scan" 
